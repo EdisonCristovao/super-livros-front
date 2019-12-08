@@ -1,5 +1,3 @@
-import produce from 'immer';
-
 const INITIAL_STATE = {
   bookList: [],
   page: 0,

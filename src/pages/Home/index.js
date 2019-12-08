@@ -18,7 +18,7 @@ const Home = ({ fetchBooks, bookList, page, total }) => {
   const [dateFrom, setDateFrom] = useState('');
   const [dateTo, setDateTo] = useState('');
 
-  const [rowsPerPage, setRowsPerPage] = useState(2);
+  const [rowsPerPage] = useState(2);
 
   useEffect(() => {
     fetchBooks('', null, null, page, rowsPerPage);
@@ -81,7 +81,7 @@ const Home = ({ fetchBooks, bookList, page, total }) => {
           </Form.Group>
           <FaCalendarAlt size={30} />
         </Form>
-        <p className="toLeft">{bookList.length} resultados encontrados</p>
+        <p className="toLeft">{total} resultados encontrados</p>
       </DateFields>
       <hr />
 

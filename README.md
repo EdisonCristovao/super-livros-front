@@ -1,4 +1,4 @@
-# Super Livros Back-end
+# Super Livros Front-end
 
 ## Como rodar
 
