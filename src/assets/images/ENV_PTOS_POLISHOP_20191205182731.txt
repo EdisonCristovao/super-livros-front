@@ -1,0 +1,17 @@
+000000120191127083050000012                                                                                                                          X
+010000100078537592587JOAO PAULO SARAIVA DE ANDRADE                               0000003C000002954736201911130012                                    X
+010000100002819576494REGINA COELI CASTRO JIMENEZ                                 0000002C000002954752201911200012                                    X
+010000100011601886888LUCIANA TEMPESTA ROMANO CAPUTO                              0000024C000002954755201911210012                                    X
+010000100028315235672JULIO CESAR ALBERTO MOORE                                   0000005C000002954756201911210012                                    X
+010000100091528968620FREDERICO GOMES CARVALHAES                                  0000013C000002954757201911220012                                    X
+010000100009883915977RODRIGO MASCARELLO KREUSCH                                  0000003C000002954781201911240012                                    X
+010000100001511852631TATIANA SILVEIRA LIMA                                       0000004C000002954782201911240012                                    X
+010000100005101792900GLAUCIA SIMOES SCHIAVON PEREIRA                             0000001C000002954783201911240012                                    X
+010000100032114064840FABIO DO NASCIMENTO BASTOS                                  0000006C000002954784201911240012                                    X
+010000100051701758687MARCELO EVANGELISTA MAIA                                    0000007C000002954785201911240012                                    X
+010000100014360866801MARIA EDINEUSA DE SOUSA                                     0000002C000002954815201911270012                                    X
+010000100020098017845REGINALDO MENDES PIMENTEL                                   0000011C000002954816201911270012                                    X
+010000100090802381049DALINE SCHRAMM ADAMY                                        0000021C000002954817201911270012                                    X
+010000100045017434844ORKLEY FELIX DE OLIVEIRA                                    0000001C000002954818201911270012                                    X
+010000100000423747150RENATA MARQUES DE ALMEIDA MENDES                            0000002C000002954819201911270012                                    X
+990000100000000001500                                                                                                                                X
