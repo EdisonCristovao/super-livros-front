@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { format, parseISO } from 'date-fns';
 
 import api from '../../services/api';
 import { BookItem } from './styles';
@@ -9,11 +10,10 @@ export default function ListItem(props) {
 
   const [book, setBook] = useState({});
 
-  useEffect(async () => {
-    const resp = await api.get(`/books/${id}`);
-
-    setBook(resp.data);
+  useEffect(() => {
+    api.get(`/books/${id}`).then(resp => setBook(resp.data));
   }, []);
+
   return (
     <BookItem>
       <img src={book.img_url} alt="" />
@@ -36,7 +36,7 @@ export default function ListItem(props) {
           <h4>
             <strong>Ano</strong>
           </h4>
-          <span>{book.year}</span>
+          <span>{book.year && format(parseISO(book.year), 'yyyy')}</span>
         </div>
 
         <div className="detail">
@@ -59,8 +59,8 @@ export default function ListItem(props) {
           </h4>
           <span>{book.dimension}</span>
         </div>
-        <Link to={`/6`}>
-          <button>voltar</button>
+        <Link to={`/`}>
+          <button>Voltar</button>
         </Link>
       </div>
     </BookItem>

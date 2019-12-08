@@ -6,6 +6,7 @@ import { FaCalendarAlt } from 'react-icons/fa';
 import { chain } from 'lodash';
 import { toast } from 'react-toastify';
 import { Link } from 'react-router-dom';
+import { format, parseISO } from 'date-fns';
 
 import MyPagination from '../../components/Pagination';
 import * as BookActions from '../../store/module/book/actions';
@@ -106,7 +107,9 @@ const Home = ({ fetchBooks, bookList, page, total }) => {
                       <td>{book.isbn}</td>
                       <td>{book.author}</td>
                       <td>{book.publishing_company}</td>
-                      <td>{book.year}</td>
+                      <td>
+                        {book.year && format(parseISO(book.year), 'yyyy')}
+                      </td>
                       <td>
                         <Link to={`/${book.id}`}>
                           <OutlinedButton>Detalhes</OutlinedButton>
